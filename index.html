@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web CV</title>
+    <link rel="icon" type="image/x-icon" href="Assets/Img/favicon1.jpg">
+    <script src="https://kit.fontawesome.com/4c4ddb398a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Montserrat:wght@800&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="interacción.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="jquery-3.6.3.min.js"></script>
+</head>
+<body>
+    <section>        
+        <header class="Header">
+            <nav class="Header__Nav">
+                <ul class="Header__ul">
+                    <li class="Nav__li">
+                        <a href="#Experiencia">Experiencia</a>
+                    </li>
+                    <li class="Nav__li">
+                        <a href="#Habilidades">Habilidades</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <label class="switch" >
+            <input type="checkbox" onclick="myFunction()">
+            <span class="slider round"></span>
+        </label> 
+        <div class="Lista_Info_Personal">
+                <h5>
+                    <i class="fa-solid fa-envelope"></i>wade.berry@example.com
+                </h5>
+                <h5>
+                    <i class="fa-solid fa-location-dot"></i>
+                        <span>2533 E Pecan St</span>
+                </h5>
+                <h5>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                        <span>(225) 613-9578</span>
+                </h5>
+            <div class="Iconos__Redes">
+                <span class="Span__Iconos">
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                </span>
+                <span class="Span__Iconos">
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                </span>
+                <span class="Span__Iconos">
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                </span>
+                <span class="Span__Iconos">
+                    <i class="fa-brands fa-linkedin fa-lg"></i>
+                </span>
+            </div>
+            <button id="BtnCV"type="button" onclick="myCV()">Descargar CV</button>
+        </div>
+        <div class="Inicio">
+            <img id="Logo" src="Assets/Img/perfil_wade_berry.png" alt="Imagen de perfil">
+        </div>
+        <div class="Wade__Titulo">
+                <h1>Wade Berry</h1>
+                <h2>Desarrollador Web</h2>
+        </div>
+    </section>
+    <br><br>
+    <section id="Experiencia">
+        <h3 class="Titulo_Exp">Experiencia</h3>
+            <div class="Lista_Experiencia">
+                <h4>Marzo 2022-Actualidad</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur.</p>
+            </div>        
+            <br>
+            <div class="Lista_exp2">
+                <h4>Julio 2020-Enero 2021</h4>
+                    <p> Veritatis aliquid accusantium soluta ipsam Necessitatibus.</p>
+            </div>
+            <br>
+            <div class="Lista_exp3">
+                <h4>Mayo 2019-Febrero 2020</h4>
+                    <p> Lorem ipsum dolor sit Vel incidunt ipsam ipsum eaque tempora Assumenda.</p>
+            </div>
+    </section>
+    <section id="Habilidades">
+        <h3 class="Titulo_Habilidades">Habilidades</h3>
+            <div class="Lista_Habilidades">
+                <ul class="Lista__ul">
+                    <li class="Lista__li">Adaptación al cambio</li>
+                    <li class="Lista__li">Trabajo en equipo</li>
+                    <li class="Lista__li">Comunicación efectiva</li>
+                </ul>
+                <ul class="Lista__ul-a">
+                    <li class="Lista__li-a">
+                        <h4>CSS</h4>
+                    </li>
+                    <li class="Lista__li-a">
+                        <h4>HTML5</h4>
+                    </li>
+                    <li class="Lista__li-a">
+                        <h4>BootStrap</h4>
+                    </li>
+                    <li class="Lista__li-a">
+                        <h4>Java Script</h4>
+                    </li>
+                </ul>
+            </div>
+    </section>
+    <br><br><br><br><br><br><br><br>
+    <footer class="Pie_Pagina">
+        <button onclick="topFunction()" id="BotonArriba" type="button" title="Ir Arriba">
+            <img src="Assets/Img/arrow-up-icon.svg" alt="FlechaArriba">
+        </button>
+        <h5>Copyright 2023</h5>
+    </footer>       
+</body>
+</html>
